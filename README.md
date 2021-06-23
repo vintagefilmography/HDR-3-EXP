@@ -67,19 +67,19 @@ Run the scanner.
 All images will be stored in the same dir. The numbers will go sequentially.  
 So, for 3 exposures it will go  
 img1  exp1  
-img2  exp2 
+img2  exp2  
 img3  exp3  
 img4  exp1  
 img5  exp2  
 etc  
 
-Note, once the scan process is complete you can use an app to run the high and low images.   
-The app that seems to work very well can be obtained from the following site:   
-http://enblend.sourceforge.net/ 
-Download enfuse and use the enfuse-hdr.bat (included here in the repository) script to run combine the images.
-Note the .bat file is designed for 2 images and has to be revised for 3 images.
-Alternatively, use the enfuse GUI. It is easier to use and it accepts many images.
-There is also a GUI version of it that is easier to use.
-http://software.bergmark.com/enfuseGUI/Main.html
-There is also another app that might be worth looking into.
-https://skylum.com/aurorahdr
+Note, once the scan process is complete you can use an app to run the high and low images.  
+The app that seems to work very well can be obtained from the following site:  
+http://enblend.sourceforge.net/  
+Download enfuse and use the enfuse-hdr.bat (included here in the repository) script to run combine the images.  
+Note the .bat file is designed for 2 images and has to be revised for 3 images.  
+Alternatively, use the enfuse GUI. It is easier to use and it accepts many images.  
+There is also a GUI version of it that is easier to use.  
+http://software.bergmark.com/enfuseGUI/Main.html  
+There is also another app that might be worth looking into.  
+https://skylum.com/aurorahdr  
