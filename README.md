@@ -16,7 +16,8 @@ seq 4 exp1
 etc  
 It should also be notes that both the low and high dir paths should be set the same for this to work.  
 
-Note: Hawkeye board V12 or higher and MSP FW mod are required for proper HDR operation to provide two camera triggers for a single external trigger.   
+Note: Hawkeye board V12 or higher and MSP FW mod are required for proper HDR operation to provide two camera triggers for a single external trigger.
+The MSP mod is not available at this time. Please contact  sjelavic123@gmail.com and request teh mod.
 This is the windows software that runs hdr on the Wolverine scanner that has the Hawkeye mod.   
 The software is written in Visual Basic and it connects to the camera and waits for the image ready event.   
 After the event is receied the sw stores the first image and lowers the camera exposure for the second image.   
