@@ -83,3 +83,20 @@ There is also a GUI version of it that is easier to use.
 http://software.bergmark.com/enfuseGUI/Main.html  
 There is also another app that might be worth looking into.  
 https://skylum.com/aurorahdr  
+  
+
+Additional notes:  
+If tiff file transfer, is unreliable (occasional dropped frames), switch to jpeg. The difference is not perceptible not even on a large screen.The jpg files can be converted to a combined HDR tiff file, if needed, with Enfuse.
+
+Can use basic script batch file to process 2 exposure HDR files in separate folders using Enfuse v4.2.
+http://enblend.sourceforge.net/index.htm  
+  
+It is better however to have all these files in one folder, use "HDR-UX178-3-Exposure-ONE-FOLDER-main" program for 3 exposures, or https://github.com/vintagefilmography/HDR-UX178-ONE-DIR for two exposures.  
+To process the files/frames use EnfuseGUI v2.1.3, this gui uses Enfuse v4.0 and makes the process very simple.
+http://software.bergmark.com/enfuseGUI/Main.html
+
+If one wanted to use the later command line Enfuse v4.2, there are included Droplets v0.2.1 by Erik Krause, there is also a newer v0.4.2 available, with added extra options like EXIF copy feature (not needed for this simple application). Because some changes have been made to Enfuse over time, these Enfuse droplets no longer function as they are, but with a very minor one line change, they still work.  
+Change line from:- set enfuse_additional_parameters= --wExposure=1 --wSaturation=1 --wContrast=0  
+To :- set enfuse_additional_parameters= --exposure-weight=1 --saturation-weight=0.2 --contrast-weight=0 --hard-mask  
+http://www.erik-krause.de/enfuse_droplet.zip  
+https://groups.google.com/g/hugin-ptx/c/3VuXOjVqZPk    
